@@ -1,11 +1,14 @@
 
+// Header locker
+const headerInfo = document.querySelector('.header-info');
+const navBar = document.querySelector('.nav-bar');
+const nav = document.querySelector('nav');
+navBar.style.height = nav.offsetHeight + "px";
+
 window.addEventListener('scroll', function(){
-    console.log(window.scrollY)
-    const nav = document.querySelector('nav');
-    nav.classList.toggle('stick', window.scrollY > 165);
-    
-    
-})
+    // Fixa o menu quando o scroll for maior que o header
+    nav.classList.toggle('stick', window.scrollY > headerInfo.offsetHeight);
+});
 
 
 // Banner
