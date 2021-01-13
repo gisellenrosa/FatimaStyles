@@ -183,46 +183,26 @@ text-decoration: none;
 
 /* ====== BANER ====== */
 
-.main-banner{
-display: flex;
-margin: 0 auto;
-width: 1400px;
-height: 500px;
-overflow: hidden;
-position: relative;
-z-index: inherit;
-
+.swiper-container {
+  height: 500px;
 }
 
-.main-banner .imgban {
-width: 100%;
-position: absolute;
-height: 100%;
-margin-top: 0px;
-transition: ease-in-out 500ms;
--webkit-transition: all ease-in-out 500ms;
--moz-transition: all ease-in-out 500ms;
+.swiper-container .swiper-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.main-banner #imgban3 {
-background-image: url(assets/lohane_mascara-aqua.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+.swiper-container #banner1 {
+  background-image: url(assets/lohane_mascara-aqua.jpg);
 }
 
-.main-banner #imgban2 {
-background-image: url(https://images.unsplash.com/photo-1518489913881-199b7c7a081d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+.swiper-container #banner2 {
+  background-image: url(assets/max-GU3PW0xQV-w-unsplash.jpg);
 }
 
-.main-banner #imgban1 {
-background-image: url(assets/lohane_mascara.jpg);
-background-size: cover;
-background-position-y:20%;
-background-repeat: no-repeat;
+.swiper-container #banner3 {
+  background-image: url(https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1498&q=80);
 }
 
 /* ======== PAGE CONTAINER  ====== */
